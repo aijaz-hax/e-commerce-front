@@ -14,7 +14,7 @@ export const incrementAsync = createAsyncThunk(
   }
 );
 
-export const counterSlice = createSlice({
+export const product = createSlice({
   name: 'counter',
   initialState,
   reducers: {
